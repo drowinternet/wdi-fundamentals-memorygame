@@ -1,10 +1,19 @@
-let cardOne = "queen";
+let cards = ["queen", "king","queen", "king"];
 
-let cardTwo = "queen";
+let cardsInPlay = [];
 
-let cardThree = "king";
+let cardOne = cards[0];
 
-let cardFour = "king";
+let cardTwo = cards[1];
 
-console.log("User flipped " + cardOne);
-console.log("User flipped " + cardFour);
+cardsInPlay.push(cardOne);
+
+cardsInPlay.push(cardTwo);
+
+console.log("User flipped " + cardsInPlay[0]);
+console.log("User flipped " + cardsInPlay[1]);
+
+if(cardsInPlay.length === 2){
+	console.log("Cool!");
+
+}
