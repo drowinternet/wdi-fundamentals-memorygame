@@ -45,6 +45,13 @@ function flipCard(cardId){
 }
 
 
+function creatBoard(){
+	for (let i = 0; i < arrayName.length; i++) {
+		let newListItem = document.createElement('img');
+		cardElement.setAttribute('src', "images/back.png");
+		cardElement.setAttribute('data-id', cards[cardId]);
+		addEventListener().cardElement('click', flipCard())
+		appendChild().
+}
 
-flipCard(0);
-flipCard(2);
+creatBoard();
